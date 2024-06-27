@@ -1,6 +1,6 @@
 ## Проект домашней автоматизации вытяжной вентиляции 
 
-![Иллюстрация к проекту](https://github.com/VGCH/smart_fan/blob/main/img/smart_fan_c.png)
+![Иллюстрация к проекту](https://github.com/VGCH/smart_fun/blob/main/img/fan_circut.png)
 
 
 Полное описание в статье на Хабр
