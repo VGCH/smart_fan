@@ -11,4 +11,5 @@
 [Ссылка на статью ](https://habr.com/ru/articles/823752/)
 
 Поддержать автора можно на Boosty
+
 [Ссылка на Boosty](https://boosty.to/cyberex_tech)
