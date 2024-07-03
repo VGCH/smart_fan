@@ -46,13 +46,13 @@ unsigned int status = WL_IDLE_STATUS;
 boolean connect;
 boolean wi_fi_st;
 
-boolean stat_reboot, led_stat, stat_wifi, fan_on, stat; 
+boolean stat_reboot, led_stat, stat_wifi, fan_on, stat, annonce_mqtt_discovery; 
 
 // Переменные используемые для CaptivePortal
 const char *myHostname  = "Cyberex_SmartFAN";            // Имя создаваемого хоста Cyberex_SmartFAN.local 
 const char *softAP_ssid = "CYBEREX-SmartFAN";            // Имя создаваемой точки доступа Wi-Fi
 
-String version_code = "CF-1.20.06.24";
+String version_code = "CF-1.2.07.24";
 
 float hum = 0.0;
 float temp = 0.0;

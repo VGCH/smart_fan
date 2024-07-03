@@ -59,7 +59,7 @@ String water_l(){
 
 String JSON_DATA(){
      String outjson  = "{";
-            outjson += "\"chanel1\":";
+            outjson += "\"c\":";
      if(fan_on){
             outjson  += "\"On\",";
         }else{
@@ -69,7 +69,7 @@ String JSON_DATA(){
           outjson += "\""+String(temp)+"\",";
           outjson += "\"hum\":";
           outjson += "\""+String(hum)+"\",";
-          outjson += "\"Auto_status\":";
+          outjson += "\"a\":";
           outjson += "\""+String(settings.auto_en)+"\",";
           outjson += "\"h_on\":";
           outjson += "\""+String(settings.auto_on)+"\",";

@@ -16,7 +16,7 @@ void get_DHT22_data(){
       if(millis() - prevMills > 5000 ) {
           hum  = dht.getHumidity();
           temp = dht.getTemperature();
-          if(String(hum) != "nan"){
+          if(!isnan(hum)){
              prevMills = millis();
           }else{
             if(millis() - prevMills >= 7000) { digitalWrite(DHT22_vin, LOW); }
